@@ -1,0 +1,13 @@
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    background-color: beige;
+}
+p{
+    background-color: rgb(136, 214, 214);
+    text-align: center;
+    font-size: medium;
+    border: solid 2px blue;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

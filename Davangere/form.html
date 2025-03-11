@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Form</h1>
+    </div>
+    <div>
+        <form name="formName" onsubmit="return validateForm()">
+            <div>
+                <lable for="nameId">Name</lable>
+                <span>*</span>
+                <span>:</span>
+                <input type="text" id="nameId" name="nameName" required>
+            </div>
+            <div>
+                <label>Date of Birth</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="date" id="dateOfBirthId" name="dateOfBirthName" required>
+            </div>
+            <div>
+                <lable id="RadioButtons">Gender</lable>
+                <span>*</span>
+                <span>:</span>
+                <input type="radio" id="male" name="Gender" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Gender" required>
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <lable>Email</lable>
+                <span class="RedColor">*</span>
+                <span>:</span>
+                <input type="email" id="emailId" name="emailName" required>
+            </div>
+            <div>
+                <lable>Phone Number</lable>
+                <span>*</span>
+                <span>:</span>
+                <input type="tel" id="Phone" name="Phone" required>
+            </div>
+            <div>
+                <lable for="password">Password</lable>
+                <span>*</span>
+                <span>:</span>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="confirm_password">Confirm Password</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <div>
+                <label>Add Photo</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="file" id="image" name="image" required>
+            </div>
+            <div>
+                <button type="submit" value="Submit">Submit</button>
+                <button type="reset"  value="Clear">Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
